@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ScanComponent } from './scan/scan.component';
 import { PesquisaComponent } from './pesquisa/pesquisa.component';
+import { NavibarComponent } from './navibar/navibar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PesquisaComponent } from './pesquisa/pesquisa.component';
     HomeComponent,
     LoginComponent,
     ScanComponent,
-    PesquisaComponent
+    PesquisaComponent,
+    NavibarComponent
   ],
   imports: [
     BrowserModule,
