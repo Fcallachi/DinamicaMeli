@@ -14,6 +14,7 @@
 			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			border-radius: 5px;
+			background: #FFE600;
 
 		}
 		.brand_logo_container {
@@ -22,7 +23,7 @@
 			width: 170px;
 			top: -75px;
 			border-radius: 50%;
-			background: #60a3bc;
+			background: #FFE600;
 			padding: 10px;
 			text-align: center;
 		}
@@ -34,6 +35,7 @@
 		}
 		.form_container {
 			margin-top: 100px;
+			
 		}
 		.btn-light {
 			width: 100%;
@@ -46,9 +48,19 @@
 		}
 		.login_container {
 			padding: 0 2rem;
+			
+		}
+		.btn-B {
+			width: 80%;
+			background: #2D3277 !important;
+			color: white;
+			margin: 20px;
+			padding: 20px;
+			font-weight: bold;		
+			
 		}
 		.input-group-text {
-			background: #c9d611 !important;
+			background: #2D3277 !important;
 			color: white !important;
 			border: 0 !important;
 			border-radius: 0.25rem 0 0 0.25rem !important;
