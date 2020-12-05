@@ -12,8 +12,7 @@
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-    background-color: #FFE600;
-    
+    background: #FFE600;
 
 }
 .brand_logo_container {
@@ -34,14 +33,10 @@
 }
 .form_container {
     margin-top: 100px;
+    
 }
-.btn-B {
-    width: 80%;
-    background: #2D3277 !important;
-    color: white;
-    margin: 20px;
-    padding: 20px;
-    font-weight: bold;
+.btn-light {
+    width: 100%;
     
     
 }
@@ -51,8 +46,23 @@
 }
 .login_container {
     padding: 0 2rem;
+    
 }
-
+.btn-B {
+    width: 80%;
+    background: #2D3277 !important;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;		
+    
+}
+.input-group-text {
+    background: #2D3277 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
 .input_user,
 .input_pass:focus {
     box-shadow: none !important;

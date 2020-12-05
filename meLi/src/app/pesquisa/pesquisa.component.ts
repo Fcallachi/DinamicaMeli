@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pesquisa',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PesquisaComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+
+    private router: Router,
+    
+      ) { }
 
   ngOnInit(): void {
+  }
+  tela2(){
+    this.router.navigate(['/pesquisa2'])
+    localStorage.clear()
   }
 
 }
